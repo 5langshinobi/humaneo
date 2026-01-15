@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body>
     <header class="header_component">
         <div class="container-large">
             <div class="header_wrapper">
                 
                 <div class="header_logo-wrapper">
-                    <a href="<?php echo esc_url(home_url('/')); ?>" class="header_logo-link">
-                        <img src="<?php echo get_template_directory_uri(); ?>/humaneo.png" alt="Humaneo Logo" class="header_logo">
+                    <a href class="header_logo-link">
+                        <img src="humaneo.png" alt="Humaneo Logo" class="header_logo">
                     </a>
                 </div>
 

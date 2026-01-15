@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <main class="main-wrapper">
 <section class="section-banner">
     <div class="container-small">
@@ -32,7 +31,7 @@
             <div class="about_list-wrapper">
                 
                 <div class="about_item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/content3.png" alt="En Suisse" class="about_image">
+                    <img src="content3.png" alt="En Suisse" class="about_image">
                     <div class="about_card-content">
                         <h3 class="about_card-title">En Suisse</h3>
                         <p class="about_card-text">Nous organisons des séjours de rupture pour des jeunes en difficulté et développons des programmes d'insertion sociale et professionnelle...</p>
@@ -41,7 +40,7 @@
                 </div>
 
                 <div class="about_item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/IMG.png" alt="À l'étranger" class="about_image">
+                    <img src="IMG.png" alt="À l'étranger" class="about_image">
                     <div class="about_card-content">
                         <h3 class="about_card-title">À l'étranger</h3>
                         <p class="about_card-text">Nous soutenons des projets éducatifs, communautaires et humanitaires dans les zones touchées par l'extrême pauvreté...</p>
@@ -60,7 +59,7 @@
                     
                     <div class="business_item">
                         <div class="business_image-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/Frame.png" loading="lazy" alt="Vision" class="business_icon">
+                            <img src="Frame.png" loading="lazy" alt="Vision" class="business_icon">
                         </div>
                         <div class="business_content">
                             <h3 class="heading-style-h3">Notre vision</h3>
@@ -70,7 +69,7 @@
 
                     <div class="business_item is-reversed is-secondary">
                         <div class="business_image-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/Isolation_Mode.png" loading="lazy" alt="Promesse" class="business_icon">
+                            <img src="Isolation_Mode.png" loading="lazy" alt="Promesse" class="business_icon">
                         </div>
                         <div class="business_content">
                             <h3 class="heading-style-h3">Notre promesse</h3>
@@ -80,7 +79,7 @@
 
                     <div class="business_item">
                         <div class="business_image-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/Group.png" loading="lazy" alt="Mission" class="business_icon">
+                            <img src="Group.png" loading="lazy" alt="Mission" class="business_icon">
                         </div>
                         <div class="business_content">
                             <h3 class="heading-style-h3">Notre mission</h3>
@@ -103,5 +102,3 @@
     </div>
 </section>
 </main>
-
-<?php get_footer(); ?>
